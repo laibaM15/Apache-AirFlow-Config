@@ -1,1 +1,41 @@
-# MLOP_Assignment_2
+# MLOps Implementation with Apache Airflow
+
+## Objective
+
+Implement Apache Airflow to automate data extraction, transformation, and version-controlled storage.
+
+## Data Extraction
+
+### Sources
+- [Dawn](https://www.dawn.com)
+- [BBC](https://www.bbc.com)
+
+### Steps
+- Extract links, titles, and descriptions from the homepage of both sources.
+
+## Data Transformation
+
+### Steps
+- Clean and preprocess the data.
+- Remove duplicates and handle missing values.
+
+## Data Storage and Version Control
+
+### Google Drive
+- Store the processed data on Google Drive.
+
+### DVC
+- Track versions of the data using DVC.
+- Version the metadata against each DVC push to the GitHub repo.
+
+## Airflow DAG
+
+### Overview
+- The DAG automates the extraction, transformation, and storage processes.
+- Handles task dependencies and error management.
+
+## How to Run
+
+1. **Set Up Environment**:
+   ```bash
+   pip install -r requirements.txt
