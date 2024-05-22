@@ -1,6 +1,0 @@
-apache-airflow==2.3.3
-apache-airflow-providers-sqlite==2.1.1
-apache-airflow-providers-http==2.1.0
-apache-airflow-providers-ftp==2.1.0
-cryptography==3.4.7
-GitPython==3.1.18
